@@ -1,0 +1,51 @@
+/*
+
+Theme: Relacsui – Website UI Kit
+Version: 1.1.0
+Product Page: https://relacs.hypnosys.in/
+License: MIT
+Author: Vanshaj Poonia
+Author URI: https://vanshajpoonia.com
+
+---
+
+Copyright 2022 Vanshaj Poonia
+
+*/
+
+// Bootstrap functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Custom variables
+@import "custom/variables";
+
+// Quick functions
+@import "core/functions";
+
+@import "core/variables";
+
+// Custom fonts
+@import "custom/fonts";
+
+// Bootstrap core
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+// Quick mixins
+@import "core/mixins";
+
+// Bootstrap components
+@import "core/bootstrap";
+
+// Quick utilities
+@import "core/utilities";
+
+// Quick components
+@import "core/components";
+
+// Quick libs
+@import "core/libs";
+
+// Custom styles (User's file)
+@import "custom/styles";
